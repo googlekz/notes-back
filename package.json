@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./index.js",
-    "dev": "nodemon ./index.js localhost 3000"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js localhost 3000"
   },
   "dependencies": {
     "body-parser": "^1.20.1",

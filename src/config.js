@@ -1,6 +1,6 @@
 const Pool = require('pg').Pool;
 
-exports.port = 5000;
+exports.port = process.env.PROT || 5000;
 exports.hostName = '127.0.0.1';
 exports.pool = new Pool({
     user: 'postgres',
